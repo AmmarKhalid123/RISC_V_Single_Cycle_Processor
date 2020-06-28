@@ -75,7 +75,7 @@ begin
     end
 end
 
-always@(Mem_Addr, MemRead, regs)
+always@(*)
 begin
   if(MemRead)
     begin
